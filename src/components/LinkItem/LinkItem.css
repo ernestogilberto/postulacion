@@ -1,0 +1,10 @@
+.link-item {
+    font-weight : bold;
+    display     : inline-block;
+    color       : var(--primary);
+}
+
+.link-item:hover {
+    border-bottom: 2px solid #FFF;
+    color: #FFF;
+}

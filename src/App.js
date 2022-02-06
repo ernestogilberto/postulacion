@@ -1,25 +1,30 @@
-import logo from './logo.svg';
+import {Routes, Route} from 'react-router-dom';
 import './App.css';
+import NavBar from './components/NavBar/NavBar';
+import Search from './components/Search/Search';
+import InfoContainer from './components/InfoContainer/InfoContainer';
+import React from 'react';
+import AlbumInfoContainer from './components/AlbumInfoContainer/AlbumInfoContainer';
+import VideosInfoContainer from './components/VideosInfoContainer/VideosInfoContainer';
 
 function App() {
+
+  const [currentId, setCurrentId] = React.useState(0)
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+      <>
+        <NavBar/>
+        <Search setCurrentId = {setCurrentId}/>
+        <Routes>
+          <Route path="/" element={<InfoContainer dataType={'artist'} query={'i'} id={currentId}/>}/>
+          <Route path="/discography" element={<AlbumInfoContainer id={currentId}/>}/>
+          <Route path="/videos" element={<VideosInfoContainer id={currentId}/>}/>
+        </Routes>
+      </>
+
+
+)
+
 }
 
 export default App;
