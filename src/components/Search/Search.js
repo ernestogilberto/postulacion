@@ -14,7 +14,7 @@ const Search = ({setCurrentId}) => {
 
   return (
       <form className="search-container" name='search' onSubmit={submitHandler}>
-        <input className="search" placeholder="Search artist or band" name="artist"/>
+        <input className="search" placeholder="Search" name="artist"/>
         <input className="search-btn" type="submit" value="Search"/>
       </form>
   )

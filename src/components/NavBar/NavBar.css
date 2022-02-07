@@ -4,10 +4,11 @@
     display          : flex;
     justify-content  : space-between;
     align-items      : center;
-    padding-inline: 2rem;
+    padding-inline: 1rem;
 }
 
 .navbar .logo {
     height        : 4rem;
+    width        : 4rem;
     transform : rotate(45deg);
 }

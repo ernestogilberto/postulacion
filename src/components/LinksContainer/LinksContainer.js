@@ -2,7 +2,7 @@ import React from 'react';
 import './LinksContainer.css'
 import LinkItem from '../LinkItem/LinkItem.js';
 
-const links = [{text: 'Info', url: ''},
+const links = [{text: 'Info', url: 'postulacion'},
     {text: 'Discography', url: 'discography'},
   {text: 'Videos', url: 'videos'}
 ]

@@ -16,7 +16,7 @@ function App() {
         <NavBar/>
         <Search setCurrentId = {setCurrentId}/>
         <Routes>
-          <Route path="/" element={<InfoContainer dataType={'artist'} query={'i'} id={currentId}/>}/>
+          <Route path="/postulacion" element={<InfoContainer dataType={'artist'} query={'i'} id={currentId}/>}/>
           <Route path="/discography" element={<AlbumInfoContainer id={currentId}/>}/>
           <Route path="/videos" element={<VideosInfoContainer id={currentId}/>}/>
         </Routes>
