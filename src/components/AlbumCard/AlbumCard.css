@@ -7,3 +7,7 @@
 .album-data{
 
 }
+
+.album-img{
+    cursor: pointer;
+}

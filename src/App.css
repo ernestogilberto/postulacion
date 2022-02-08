@@ -15,3 +15,7 @@ h1{
 .App {
     text-align: center;
 }
+
+body{
+   background-image: repeating-radial-gradient(circle at center, #111 0px, #111 5px, #555 5px, #555 6px) ;
+}

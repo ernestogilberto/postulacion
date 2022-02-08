@@ -19,3 +19,14 @@ h2{
 .mainInfo-container img{
     border-radius: 50%;
 }
+
+.bio-title {
+
+}
+
+.bio-content{
+    text-align: left;
+    overflow: auto;
+    max-height: 7rem;
+    padding: .5rem;
+}

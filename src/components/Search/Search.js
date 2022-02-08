@@ -6,7 +6,8 @@ const Search = ({setCurrentId}) => {
 
   const submitHandler = async (e) => {
     e.preventDefault()
-    const search = e.target[0].value
+    let search = e.target[0].value
+    if (search === "") search=0;
     const data = {dataType : 'search', query: 's', id: search}
     let artist = await getData(data).then(r => r.artists)
     artist === null ? setCurrentId(null) : setCurrentId(artist[0].idArtist)

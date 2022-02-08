@@ -1,6 +1,7 @@
 .navbar {
     height           : 5rem;
-    background-color : var(--background);
+    /*background-color : var(--background);*/
+    background: linear-gradient(to left, #FF5050, #FF9595);
     display          : flex;
     justify-content  : space-between;
     align-items      : center;

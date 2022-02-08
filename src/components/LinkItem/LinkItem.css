@@ -7,4 +7,5 @@
 .link-item:hover {
     border-bottom: 2px solid #FFF;
     color: #FFF;
+    transform: scale(1.2)
 }

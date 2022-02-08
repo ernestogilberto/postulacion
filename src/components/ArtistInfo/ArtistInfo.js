@@ -28,8 +28,8 @@ const ArtistInfo = ({data}) => {
           </div>
           {/*<img src={data.strArtistCutout} alt=""/>*/}
         </div>
-        <h2>Biography: </h2>
-        <p>{data.strBiographyEN}</p>
+        <h2 className="bio-title">Biography: </h2>
+        <p className="bio-content">{data.strBiographyEN}</p>
       </div>
   )
 }
