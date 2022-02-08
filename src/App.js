@@ -14,7 +14,7 @@ function App() {
   return (
       <>
         <NavBar/>
-        <Search setCurrentId = {setCurrentId}/>
+        <Search setCurrentId={setCurrentId}/>
         <Routes>
           <Route path="/postulacion" element={<InfoContainer dataType={'artist'} query={'i'} id={currentId}/>}/>
           <Route path="/postulacion/discography" element={<AlbumInfoContainer id={currentId}/>}/>
@@ -23,7 +23,7 @@ function App() {
       </>
 
 
-)
+  )
 
 }
 

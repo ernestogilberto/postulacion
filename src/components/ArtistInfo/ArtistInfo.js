@@ -6,8 +6,7 @@ const ArtistInfo = ({data}) => {
 
   return (
       <div>
-        <Banner data={data} > </Banner>
-        {/*<h1> {data.strArtist} </h1>*/}
+        <Banner data={data}> </Banner>
         <div className="mainInfo-container">
           <div className="mainInfo">
             <h2>Name: </h2>

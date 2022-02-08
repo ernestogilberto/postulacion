@@ -7,7 +7,7 @@ const InfoContainer = ({id}) => {
   const [data, setData] = React.useState(null)
 
   useEffect(() => {
-    const dataQuery = {dataType : 'artist', query : 'i', id}
+    const dataQuery = {dataType: 'artist', query: 'i', id}
     id < 0 ? setData(null) : getData(dataQuery).then(r => setData(r.artists[0]))
   }, [id]);
 

@@ -1,15 +1,15 @@
-.info-container{
-    width:60%;
-    padding: 1rem;
-    border-radius: 5px;
-    border: 1px solid #222;
-    text-align: center;
-    margin: 1.5rem auto;
-    background-color: #FFF;
+.info-container {
+    width            : 60%;
+    padding          : 1rem;
+    border-radius    : 5px;
+    border           : 1px solid #222;
+    text-align       : center;
+    margin           : 1.5rem auto;
+    background-color : #FFF;
 }
 
 .gallery {
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    display               : grid;
+    gap                   : 1rem;
+    grid-template-columns : repeat(auto-fill, minmax(15rem, 1fr));
 }

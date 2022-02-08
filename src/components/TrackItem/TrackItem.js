@@ -3,7 +3,7 @@ import './TrackItem.css'
 
 const TrackItem = ({strTrack}) => {
   return (
-        <li className="track">{strTrack}</li>
+      <li className="track">{strTrack}</li>
   )
 }
 

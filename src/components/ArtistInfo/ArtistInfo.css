@@ -1,32 +1,32 @@
-h2{
-    margin-top: 1rem;
-    margin-bottom: .5rem;
+h2 {
+    margin-top    : 1rem;
+    margin-bottom : .5rem;
 }
 
-.mainInfo{
-    text-align: left;
-    margin: 0 auto;
-    min-width: 45%;
+.mainInfo {
+    text-align : left;
+    margin     : 0 auto;
+    min-width  : 45%;
 }
 
-.mainInfo-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
-    align-items: center;
-    justify-content: center;
+.mainInfo-container {
+    display               : grid;
+    grid-template-columns : repeat(auto-fill, minmax(20rem, 1fr));
+    align-items           : center;
+    justify-content       : center;
 }
 
-.mainInfo-container img{
-    border-radius: 50%;
+.mainInfo-container img {
+    border-radius : 50%;
 }
 
 .bio-title {
 
 }
 
-.bio-content{
-    text-align: left;
-    overflow: auto;
-    max-height: 7rem;
-    padding: .5rem;
+.bio-content {
+    text-align : left;
+    overflow   : auto;
+    max-height : 7rem;
+    padding    : .5rem;
 }

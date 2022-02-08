@@ -7,7 +7,7 @@ const AlbumModal = ({id, displayModal}) => {
       <div className="modal-container">
         <div className="modal-content">
           <span className="close-modal" onClick={displayModal}>cerrar</span>
-          <TracksListContainer id={id} > </TracksListContainer>
+          <TracksListContainer id={id}> </TracksListContainer>
         </div>
       </div>
   )

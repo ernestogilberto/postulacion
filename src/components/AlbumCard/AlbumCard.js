@@ -12,7 +12,7 @@ const AlbumCard = ({idAlbum, strAlbum, intYearReleased, strAlbumThumb}) => {
 
   return (
       <div className="card-container">
-        <img className="album-img" src={strAlbumThumb } onClick={displayModal} alt=""/>
+        <img className="album-img" src={strAlbumThumb} onClick={displayModal} alt=""/>
         <h2 className="album-title">Title: </h2>
         <p className="album-data">{strAlbum}</p>
         <h2 className="album-title">Year: </h2>
