@@ -1,13 +1,14 @@
 import React from 'react';
 import './Search.css'
-import {getArtist} from '../../utils/fetchData';
+import {getData} from '../../utils/fetchData';
 
 const Search = ({setCurrentId}) => {
 
   const submitHandler = async (e) => {
     e.preventDefault()
     const search = e.target[0].value
-    let artist = await getArtist(search).then(r => r.artists)
+    const data = {dataType : 'search', query: 's', id: search}
+    let artist = await getData(data).then(r => r.artists)
     artist === null ? setCurrentId(null) : setCurrentId(artist[0].idArtist)
     e.target[0].value = ""
   }

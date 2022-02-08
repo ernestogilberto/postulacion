@@ -3,8 +3,6 @@ import VideoCard from '../VideoCard/VideoCard';
 
 const VideoInfo = ({data}) => {
 
-  console.log('Entro videos')
-
   return (
       <div className="video-container">
         <h1>videos: </h1>

@@ -2,7 +2,8 @@
     width:90%;
     border: solid 2px #CCC;
     border-radius: 8px;
-    padding: 1rem;
+    padding: .5rem;
+    margin: 0 auto 1rem;
 }
 
 .video-responsive {
@@ -17,4 +18,8 @@
     height: 90%;
     width: 90%;
     aspect-ratio: 16 / 9;
+}
+
+.video-title{
+    margin-top: 0;
 }

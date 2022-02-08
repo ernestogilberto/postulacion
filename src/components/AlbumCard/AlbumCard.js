@@ -1,15 +1,14 @@
 import React from 'react';
+import './AlbumCard.css'
 
 const AlbumCard = ({idAlbum, strAlbum, intYearReleased, strLabel, strAlbumThumb}) => {
   return (
-      <div>
+      <div className="card-container">
         <img src={strAlbumThumb} alt=""/>
-        <h2>Title: </h2>
-        <p>{strAlbum}</p>
-        <h2>Year: </h2>
-        <p>{intYearReleased}</p>
-        <h2>Label: </h2>
-        <p>{strLabel}</p>
+        <h2 className="album-title">Title: </h2>
+        <p className="album-data">{strAlbum}</p>
+        <h2 className="album-title">Year: </h2>
+        <p className="album-data">{intYearReleased}</p>
       </div>
   )
 }

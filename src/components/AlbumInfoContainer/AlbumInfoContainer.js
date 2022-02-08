@@ -1,8 +1,6 @@
 import React, {useEffect} from 'react';
 import {getData} from '../../utils/fetchData';
 import AlbumInfo from '../AlbumInfo/AlbumInfo';
-import './AlbumInfoContainer.css'
-
 
 const AlbumInfoContainer = ({id}) => {
   const [data, setData] = React.useState(null)
@@ -13,7 +11,7 @@ const AlbumInfoContainer = ({id}) => {
   }, [id]);
 
   return (
-      <div className="album-container">
+      <div className="info-container">
         {!data ? <h1>Search for your favorite artist / band</h1> :  <AlbumInfo data={data}> </AlbumInfo>}
       </div>
   )

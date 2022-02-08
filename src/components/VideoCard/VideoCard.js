@@ -10,7 +10,7 @@ const VideoCard = ({strMusicVid, strTrack}) => {
         <div className="video-responsive">
           <YouTube videoId = {videoId}> </YouTube>
         </div>
-        <h2>{strTrack}</h2>
+        <h2 className="video-title">{strTrack}</h2>
       </div>
   )
 }

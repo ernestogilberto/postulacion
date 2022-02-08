@@ -4,6 +4,14 @@
     --emphasis   : #EAEBEC;
 }
 
+*{
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h1{
+    margin-bottom: 1rem;
+}
+
 .App {
-  text-align: center;
+    text-align: center;
 }

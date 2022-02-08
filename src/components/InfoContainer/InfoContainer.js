@@ -12,7 +12,7 @@ const InfoContainer = ({id}) => {
   }, [id]);
 
   return (
-      <div className="artist-container">
+      <div className="info-container">
         {!data ? <h1>Search for your favorite artist / band</h1> : <ArtistInfo data={data}> </ArtistInfo>}
       </div>
   )

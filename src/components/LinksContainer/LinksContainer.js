@@ -3,8 +3,8 @@ import './LinksContainer.css'
 import LinkItem from '../LinkItem/LinkItem.js';
 
 const links = [{text: 'Info', url: 'postulacion'},
-    {text: 'Discography', url: 'discography'},
-  {text: 'Videos', url: 'videos'}
+    {text: 'Discography', url: 'postulacion/discography'},
+  {text: 'Videos', url: 'postulacion/videos'},
 ]
 
 const LinksContainer = () => {
